@@ -51,6 +51,9 @@ endif " has("autocmd")
 
 " Dan - my settings
 set number
+" Great color scheme
+" https://github.com/lifepillar/vim-solarized8
+set background=dark
 colorscheme solarized8_high
 " Use two spaces for indentation
 set tabstop=2
