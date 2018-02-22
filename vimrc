@@ -66,6 +66,9 @@ set cursorline
 
 filetype plugin on
 
+" vim-airline
+let g:airline_powerline_fonts = 1
+
 " Add optional packages.
 "
 " The matchit plugin makes the % command work better, but it is not backwards
