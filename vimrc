@@ -50,7 +50,8 @@ else
 endif " has("autocmd")
 
 " Dan - my settings
-set number
+" Use "Hybrid" line numbers
+set number relativenumber
 " Great color scheme, clone:
 " https://github.com/lifepillar/vim-solarized8
 set background=dark
