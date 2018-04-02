@@ -50,8 +50,18 @@ else
 endif " has("autocmd")
 
 " Dan - my settings
+" Set to show invisible (tabs & trailing spaces) & their highlight color
+set list listchars=tab:»\ ,trail:·
 " Use "Hybrid" line numbers
 set number relativenumber
+" Save backup files to a central folder (the folder must exist)
+" https://stackoverflow.com/questions/607435/why-does-vim-save-files-with-a-extension
+" http://vim.wikia.com/wiki/Remove_swap_and_backup_files_from_your_working_directory
+" https://stackoverflow.com/questions/15660669/what-is-a-un-file-or-or-why-does-vim-in-the-terminal-make-the-un-file
+" https://stackoverflow.com/questions/4331776/change-vim-swap-backup-undo-file-name
+set backupdir=~/.vim/backup//
+set directory=~/.vim/backup//
+set undodir=~/.vim/backup//
 " Great color scheme, clone:
 " https://github.com/lifepillar/vim-solarized8
 set background=dark
